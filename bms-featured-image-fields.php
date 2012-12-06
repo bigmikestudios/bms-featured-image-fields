@@ -23,7 +23,10 @@ $cr = "\r\n";
 //
 //////////////////////////
 
-if (is_admin()) {
+if (is_admin()
+	// and get_option('page_on_front') != $_GET['post'] // not if we're editting the front page...
+	) {
+		
 	if (!class_exists('SmartMetaBox')) {
 		require_once("../wp-content/plugins/bms-smart-meta-box/SmartMetaBox.php");
 	}

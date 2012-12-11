@@ -43,12 +43,6 @@ if (is_admin()
 				'type' => 'text',
 			),
 			array(
-				'name' => 'Test - multiple',
-				'id' => 'featured-image-test-multiple',
-				'type' => 'text-multiple',
-				'multiple' => 'true',
-			),
-			array(
 				'name' => 'Caption',
 				'id' => 'featured-image-caption',
 				'type' => 'textarea',

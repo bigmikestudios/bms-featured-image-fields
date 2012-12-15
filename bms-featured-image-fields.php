@@ -38,11 +38,6 @@ if (is_admin()
 		'priority'  => 'high',
 		'fields'    => array(
 			array(
-				'name' => 'test - file',
-				'id' => 'featured-image-test-file',
-				'type' => 'file',
-			),
-			array(
 				'name' => 'Title',
 				'id' => 'featured-image-title',
 				'type' => 'text',

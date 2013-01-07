@@ -58,6 +58,13 @@ if (is_admin()
 				'type' => 'text',
 				'desc' => 'include "http://"',
 			),
+			array(
+				'name' => 'Image(s)',
+				'id' => 'featured-image-images',
+				'type' => 'relationship',
+				'post_type' => 'attachment',
+			),
+			
 		)
 	));
 }

@@ -63,8 +63,9 @@ if (is_admin()
 				'id' => 'featured-image-images',
 				'type' => 'relationship',
 				'post_type' => 'attachment',
+				'post_mime_type' => 'image',
+				'desc' => 'Please use images of the same size in pixel dimensions. They do no need to be larger than 770px across.'
 			),
-			
 		)
 	));
 }
